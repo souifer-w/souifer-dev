@@ -1,0 +1,347 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Signika+Negative:wght@300..700&family=Teko:wght@300..700&display=swap');
+
+.pg-img {
+   padding-top: 4rem;
+width: 100%;
+max-height:40rem ;
+
+
+
+}
+p{
+  color: white;
+}
+
+
+.page-img {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    margin: auto;
+}
+
+.page-img h1 {
+  text-align: center;
+font-size: clamp(1rem, -3rem + 16vw, 1.7rem);
+    pointer-events: none;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 50%;
+    padding: 1rem;
+    translate: -50% -50%;
+    line-height: 1.2;
+    letter-spacing: 6px;
+    flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+   left: 50%;
+    font-family: "Bebas Neue", serif;
+    font-weight: 800;
+  
+}
+.content-find-job{
+  display: flex;
+  width: 90%;
+  gap: 4rem;
+  padding: 1rem;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.find-img{
+  width: 100%;
+  border-radius: 1rem;
+}
+.p-find a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0.80rem 1rem;
+  filter: drop-shadow(0px 0px 1px rgb(0, 0, 0));
+  border-radius: 9px;
+ display: block;
+ width: max-content;
+ font-family: Arial;
+ margin-top: 2rem;
+ font-weight: 600;
+ border: 1px solid black;
+ transition: opacity 0.3s linear;
+  background:linear-gradient(to left,#ffffff,#87CEFA);
+}
+.p-find a:hover {
+  opacity: 0.6;
+}
+.h1-find-job{
+  font-weight:900;
+  width: 50%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  font-size: 3rem;
+ display: flex;
+  filter: drop-shadow(0px 0px 1px white);
+ justify-self: center;
+  font-family: Arial;
+}
+
+.p-find p{
+  line-height: 2.6;
+  width: 100%;
+  font-family: Arial;
+  display: flex;
+  font-size: 1.6rem;
+  opacity: 0.7;
+ text-align: start;
+
+ 
+}
+@media (width < 59rem){
+  .p-find p{
+    font-size: 1.1rem;
+  
+  }.h1-find-job{
+    font-size: 1.5rem;
+  }
+  .find-img{
+   width: 60%;
+  }
+    .content-find-job{
+     flex-wrap: wrap;
+    }
+    .container-jobs h1 ,.h-w{
+      font-size: 1.5rem !important;
+    }
+  
+}
+
+
+
+
+
+
+.h1-find-job-2{
+  filter: drop-shadow(0px 0px 1px white);
+  border-radius: 1rem;
+  padding-bottom: 2rem;
+   border-top: 1px solid black;
+  text-align: center;
+  color: black;
+  font-family: Arial;
+  display: flex;
+  font-weight: 900;
+  font-size: 3rem;
+  width: 50%;
+  justify-self: center;
+  align-items: center;
+}
+.h-w{
+  
+  width: 70%;
+  filter: drop-shadow(0px 0px 1px white);
+  border-radius: 1rem;
+  padding-bottom: 2rem;
+   border-top: 1px solid black;
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  display: flex;
+  font-weight: 900;
+  font-size: 3rem;
+  justify-self: center;
+ text-align: center;
+  
+}
+.content-w{
+  display: flex;
+  flex-wrap: wrap;
+ align-items: center;
+ gap: 3rem;
+  justify-content: space-evenly;
+}
+
+.img-w{
+  width: 100%;
+ 
+}
+.p-w{
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  border-radius: 1rem;
+   border-bottom: 4px solid black;
+ border-left: 2px solid black;
+  text-align: center;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  font-family: Arial;
+  font-size: 1.2rem;
+}
+.container-review{
+ padding-top: 9rem;
+}
+.img-profile{
+  width: 8rem;
+  max-height: 8rem;
+  border-radius:50%;
+  object-fit: cover;
+}
+.p-rv{
+  text-align: center;
+  padding-top: 1rem;
+  color: black;
+  font-weight: 600;
+  font-family: Arial;
+  filter: drop-shadow(0px 0px 2px white);
+}
+.img-rv{
+ width: 8rem;
+ justify-content: center;
+ display: flex;
+ align-items: center;
+}
+.content-rv{
+width:max-content ;
+
+  align-items: center;
+  justify-content: center;
+}
+.container-review{
+ display: flex;
+ gap: 2rem;
+ justify-content: space-evenly;
+}
+.con-profile{
+  display: flex;
+ padding: 0.30rem;
+ gap: 1rem;
+ position: relative;
+ align-items: center;
+}
+.con-profile img{
+  width: 4rem;
+  max-height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+.con-profile p{
+  color: black;
+  font-family: Arial;
+  font-weight: bold;
+}
+.con-sec p{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.con-sec{
+ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.con-sec p{
+  padding: 0.50rem;
+}
+.plus-a{
+  position: absolute;
+  color: white;
+  right: 3px;
+  border-radius: 1rem;
+  font-family: Arial;
+  
+  padding: 0.30rem 0.60rem;
+  text-decoration: none;
+  background-color: black;
+}
+.button-pr{
+  padding: 0.60rem;
+  display: flex;
+  gap: 0.20rem;
+  justify-content: space-evenly;
+}
+.button-pr button{
+  color: white;
+  
+  border: none;
+  transition: opacity 0.4s linear;
+   background-color: white;
+ 
+} .button-pr i{
+  font-size: 1.2rem;
+  color: #000;
+}
+.button-pr button:hover {
+ opacity: 0.7;
+}
+.container-jobs{
+align-items: center;
+display: flex;
+padding-bottom: 8rem;
+padding-top: 8rem;
+gap: 4rem;
+overflow: hidden;
+flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cen-pr{
+  display: flex;
+  align-items: center;
+  gap: 0.50rem;
+}
+.a-pr{
+  border-radius: 2rem;
+  font-family: Arial;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  transition: all 0.3s linear;
+  background-color: #000;
+  animation: filter 2s linear infinite;
+}
+.a-pr:hover{
+  opacity: 0.6;
+}
+@keyframes filter {
+  0%{
+    
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.858);
+  }
+  100%{
+    
+    box-shadow: 0px 0px 20px rgba(0, 255, 251, 0.858);
+  }
+}
+
+
+
+
+
+
+.content-jobs{
+ transform: rotate(20deg);
+ transition: transform 1s linear ;
+  filter: drop-shadow(0px 0px 8px);
+  border-radius: 1rem;
+  display: flex;
+  padding: 0.40rem;
+  width: 25%;
+  flex-direction: column;
+ background-color: white;
+  border: 2px solid rgb(255, 253, 253);
+@media (width < 40rem) {
+  width: 80%;
+  
+}
+}
+.con-sec img {
+  width: 100%;
+ 
+}
+
+

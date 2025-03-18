@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+  background-image: url(../images/hunters-race-MYbhN8KaaEc-unsplash.jpg); 
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover; 
+  background-repeat: no-repeat;
+}
+
+.content-post{
+    box-shadow: 0px 0px 9px white;
+  filter: drop-shadow(0px 0px 9px rgb(0, 0, 0));
+    display: block;
+    border: 1px solid white;
+    border-radius: 1rem;
+    font-family: Arial;
+   padding: clamp(2.3rem, -3rem + 16vw, 1.5rem);
+     background:linear-gradient(to left,#1E3A5F,#87CEFA);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.container-post{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.content-post label{
+    display: block;
+    text-align: start;
+    padding: 0.40rem;
+    color: white;
+    font-weight: 600;
+    font-family: Arial;
+   
+}
+.content-post input:not(.btn-post),#job-description{
+    display: block;
+    height: 2rem;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    width: 15rem;
+    padding-left: 0.30rem;
+}
+#job-image{
+ color: white;
+}
+.btn-post{
+    margin-top: 1rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+     background:linear-gradient(to left,#ffffff,#87CEFA);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    width: 100%;
+    font-size: 1rem;
+box-shadow: 0px 0px 3px black;
+     padding: 0.50rem 1rem;
+}
+.btn-post:hover{
+    color: black;
+    background-color: white;
+}
+.content-post h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color:#ffffff;
+    padding-bottom: 1rem;
+}
+.content-post h1::after,.container-post h1::before{
+    content: '';
+    height: 1px;
+   flex: 1;
+   margin: 0 10px;
+    background-color: black;
+}
+.content-post a{
+    transition: all 0.3s linear;
+    color: white;
+    position: absolute;
+    left: 1rem;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.30rem 0.50rem;
+    border-radius: 50%;
+   background-color: black;
+}
+.content-post a:active{
+    transform: rotate(180deg);
+}
+.content-post img{
+    width: 50%;
+}
+
+
+   

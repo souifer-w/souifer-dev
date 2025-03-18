@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-job{
+    gap: 1rem;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 1rem;
+    background-color: rgb(0, 0, 0);
+}
+.search-img{
+    height: 2rem;
+    align-items: center;
+    display: flex;
+}
+
+.btn-search{
+   margin: -19px;
+   border: none;
+   border-radius: 0.40rem;
+   background-color: rgb(255, 255, 255);
+}
+.serch-jb{
+    width: 40%;
+      filter: drop-shadow(0px 0px 4px white);
+    align-items: center;
+    display: flex;
+}
+.search{
+    outline: none;
+    flex: 1;
+    width: 0;
+    height: 2rem;
+    border: none;
+    border-radius: 0.40rem;
+    padding-left: 1rem;
+}
+.job-logo{
+    width: 7rem;
+}
+.ul-jb{
+    color: white;
+     display: none;
+     transition: animation 1s linear;
+     gap: 1rem;
+     flex-direction: column;
+       right: 0;
+       top: 3.2rem;
+        padding: 1.5rem;
+        border-radius: 1rem;
+    position: absolute;
+    list-style: none;
+    background-color: rgb(0, 0, 0);
+}
+.a-hd{
+     padding:0rem 1rem;
+      border-left: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+.a-hd:hover{
+    opacity: 0.5;
+}
+
+.open-jb{
+    padding: 0.40rem;
+    display: flex;
+    align-items: center;
+  border: none;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-size: 1.4rem;
+transition: transform 0.6s linear; 
+}
+.open-jb:hover{
+      transform: rotate(90deg);
+}
+.btn-1{
+   font-family: Arial;
+    font-weight: 600;
+    color: white;
+    width: max-content;
+    transition:all 0.3s linear;
+    border-radius: 3rem;
+    padding: 0.40rem 0.80rem;
+    background:linear-gradient(to left,#1E3A5F,#87CEFA);
+    text-decoration: none;
+}
+
+.btn-1:hover{
+    opacity: 0.5;
+}
+.sing-in{
+  position: relative;
+}
+.dem-can{
+   padding: 1rem 2rem;
+
+   border-radius: 1rem;
+   top: 1.5rem;
+   left: -2rem;
+  position: absolute;
+ display: none;
+ gap: 0.40rem;
+ flex-direction: column;
+ transition: opacity 3s linear;
+  background-color: #000000;
+}
+.sing-in:hover .dem-can{
+  display: flex;
+   animation: tran 0.8s linear;
+}
+.btn-2{
+  padding-left: 1rem;
+   border-radius: 1rem;
+      border-right: 0;
+      border-left: 1px solid rgb(255, 255, 255);
+  font-family: Arial;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+   transition: opacity 0.4s linear;
+}
+.btn-2:hover{
+  opacity: 0.7;
+ 
+}
+
+.menu-jb:hover .ul-jb{
+    display: flex;
+   animation: tran 0.8s ease-in-out;
+}
+@keyframes tran {
+    from{
+    translate:11rem;
+    }
+    to{
+        translate:0rem;
+    }
+}
+
+
+
+
+
+
+.con-profile{
+  display: flex;
+ padding: 0.30rem;
+ gap: 1rem;
+ position: relative;
+ align-items: center;
+}
+.con-profile img{
+  width: 4rem;
+  max-height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+.con-profile p{
+  
+  color: black;
+  font-family: Arial;
+  font-weight: bold;
+  @media (width < 40rem){
+    font-size: 0.80rem;
+  }
+}
+.con-sec p{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.con-sec{
+ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.con-sec p{
+  padding: 0.50rem;
+}
+.plus-a{
+  position: absolute;
+  color: white;
+  right: 3px;
+  border-radius: 1rem;
+  font-family: Arial;
+  padding: 0.30rem 0.60rem;
+  text-decoration: none;
+  background-color: black;
+  @media (width < 40rem){
+    font-size: 0.80rem;
+  }
+}
+.button-pr{
+  padding: 0.60rem;
+  display: flex;
+  gap: 0.20rem;
+  justify-content: space-evenly;
+}
+.button-pr button{
+  color: white;
+  
+  border: none;
+  transition: opacity 0.4s linear;
+   background-color: white;
+ 
+} .button-pr i{
+  font-size: 1.2rem;
+  color: #000;
+}
+.button-pr button:hover {
+ opacity: 0.7;
+}
+.container-jobs{
+align-items: center;
+display: flex;
+
+padding:8rem 2rem ;
+gap: 2rem;
+flex-direction: column;
+overflow: hidden;
+flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cen-pr{
+  display: flex;
+  align-items: center;
+  gap: 0.50rem;
+}
+.a-pr{
+  border-radius: 2rem;
+  font-family: Arial;
+  filter: drop-shadow(0px 0px 4px);
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  transition: all 0.3s linear;
+  background-color: #000;
+}
+.a-pr:hover{
+  opacity: 0.6;
+}
+.content-jobs{
+ 
+  filter: drop-shadow(0px 0px 8px);
+  border-radius: 1rem;
+  display: flex;
+ width: 70%;
+  flex-direction: column;
+ background-color: white;
+  border: 2px solid rgb(255, 253, 253);
+@media (width < 40rem) {
+  width: 100%;
+  
+}
+}
+.con-sec img {
+  width: 100%;
+  object-fit: cover;
+ 
+}
